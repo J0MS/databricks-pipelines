@@ -20,7 +20,7 @@ rdd=spark.sparkContext.parallelize(dataList)
 
 # COMMAND ----------
 
-
+rdd.collect()
 
 # COMMAND ----------
 
